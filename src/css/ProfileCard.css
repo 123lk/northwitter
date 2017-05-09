@@ -1,3 +1,7 @@
 #profile-card {
   border: 1px solid black;
 }
+
+#profile-background-image {
+  max-width: 12rem;
+}
