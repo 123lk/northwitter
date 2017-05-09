@@ -1,7 +1,7 @@
 import React from 'react';
 
-var Logos = React.createClass({
-    render: function () {
+class Logos extends React.Component {
+    render () {
         return (
             <ul className='icons-ul'>
                 <li>
@@ -23,6 +23,6 @@ var Logos = React.createClass({
             </ul>
         );
     }
-});
+}
 
 export default Logos;

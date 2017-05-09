@@ -1,14 +1,14 @@
-const React = require('react');
-const NavBar = require('./Nav');
+import React from 'react';
+import NavBar from './Nav';
 
-var App = React.createClass({
-    render: function () {
+class App extends React.Component {
+    render () {
         return (
             <div className='main container-fluid'>
                 <NavBar />
             </div>
         );
     }
-});
+}
 
-module.exports = App;
+export default App;

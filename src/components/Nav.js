@@ -1,9 +1,8 @@
 import React from 'react';
-
 import Logos from './Logos';
 
-var NavBar = React.createClass({
-    render: function () {
+class NavBar extends React.Component {
+    render () {
         return (
             <nav className='navbar navbar-default'>
                 <div className='container-fluid'>
@@ -12,6 +11,6 @@ var NavBar = React.createClass({
             </nav>
         );
     }
-});
+}
 
 export default NavBar;
