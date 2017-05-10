@@ -3,3 +3,10 @@
   margin-bottom: 1em;
   width: 100%;
 }
+
+.user-avatar {
+  float: left;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 1em;
+}

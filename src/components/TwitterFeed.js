@@ -41,7 +41,7 @@ class TwitterFeed extends React.Component {
           return (
             <Tweet
               key={i}
-              avatar={tweet.user.profile_url}
+              avatar={tweet.user.profile_image_url}
               name={tweet.user.name}
               handle={tweet.user.screen_name}
               content={tweet.text}

@@ -7,7 +7,7 @@ class TweetForm extends React.Component {
       <div className='col-sm-5' id='tweet-form'>
       <div className="form-group">
         <textarea className="form-control" rows="4" id="comment" placeholder="What's happening?"></textarea>
-                  <h6 className="pull-right">140 characters remaining</h6>
+                  <h5 className="pull-right">140</h5>
                 <button className="btn btn-info" type="submit">Tweet</button>
       </div>
       </div>

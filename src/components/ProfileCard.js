@@ -3,7 +3,7 @@ import '../css/ProfileCard.css';
 import request from 'superagent';
 
 class ProfileCard extends React.Component {
-  constructor  (props) {
+  constructor (props) {
     super(props);
     this.state = {
       user_data: {}
@@ -34,15 +34,28 @@ class ProfileCard extends React.Component {
   render () {
     return (
       <div className='container-fluid' id='profile-card'>
-        <img src={this.state.user_data.background_image} id='profile-background-image'/>
-        <img src={this.state.user_data.avatar_url} id='profile-avatar'/>
-        <div className='user-details'>
-        <span id='user-name'>{this.state.user_data.username}</span>
-        <span id='user-handle'>{this.state.user_data.handle}</span>
+        <div className='profile-card-upper'>
+          <img src={this.state.user_data.background_image} id='profile-background-image' role='presentation' />
+          <img src={this.state.user_data.avatar_url} id='profile-avatar' role='presentation' />
+          <div className='user-details'>
+            <span id='user-name'>{this.state.user_data.username}</span>
+            <span id='user-handle'>{this.state.user_data.handle}</span>
+          </div>
         </div>
-        <span>Tweets{this.state.user_data.tweets}</span>
-        <span>Following{this.state.user_data.following}</span>
-        <span>Followers{this.state.user_data.followers}</span>
+        <div className='profile-card-lower'>
+          <div className='profile-tweets'>
+            <p><b>TWEETS</b></p>
+            <span>{this.state.user_data.tweets}</span>
+          </div>
+          <div className='profile-following'>
+            <p><b>FOLLOWING</b></p>
+            <span>{this.state.user_data.following}</span>
+          </div>
+          <div className='profile-followers'>
+            <p><b>FOLLOWERS</b></p>
+            <span>{this.state.user_data.followers}</span>
+          </div>
+        </div>
       </div>
     );
   }
