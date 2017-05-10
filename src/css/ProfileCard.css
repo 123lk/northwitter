@@ -1,7 +1,46 @@
 #profile-card {
-  border: 1px solid black;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+  background-color: white;
+  height: 250px;
+  width: 290px;
+  margin-left: 12em;
 }
 
 #profile-background-image {
-  max-width: 12rem;
+height: 100px;
+width: 100%;
+border: 1px solid white;
+border-radius: 8px;
 }
+
+.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#profile-avatar {
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  height: 72px;
+  width: 72px;
+  margin-left: 0.5em;
+}
+
+.user-details {
+  display: inline;
+}
+
+#user-name {
+  font-size: 18px;
+  margin-left: 0.5em;
+  float: right;
+  clear: right;
+}
+
+#user-handle {
+  float: right;
+  clear: right;
+}
+

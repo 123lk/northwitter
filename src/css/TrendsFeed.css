@@ -1,7 +1,15 @@
 #trends-feed {
-  border: 1px solid green;
+  border-radius: 6px;
+  background-color: white;
+  margin-left: 12em;
+  width: 288px;
+}
+
+h4 {
+  margin-left: 1em; 
 }
 
 #trend {
-  border: 1px solid purple;
+  font: #949799;
+  margin-left: 1em;
 }

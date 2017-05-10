@@ -35,12 +35,14 @@ class ProfileCard extends React.Component {
     return (
       <div className='container-fluid' id='profile-card'>
         <img src={this.state.user_data.background_image} id='profile-background-image'/>
-        <h3>{this.state.user_data.username}</h3>
-        <h4>{this.state.user_data.handle}</h4>
         <img src={this.state.user_data.avatar_url} id='profile-avatar'/>
-        <h5>Tweets{this.state.user_data.tweets}</h5>
-        <h5>Following{this.state.user_data.following}</h5>
-        <h5>Followers{this.state.user_data.followers}</h5>
+        <div className='user-details'>
+        <span id='user-name'>{this.state.user_data.username}</span>
+        <span id='user-handle'>{this.state.user_data.handle}</span>
+        </div>
+        <span>Tweets{this.state.user_data.tweets}</span>
+        <span>Following{this.state.user_data.following}</span>
+        <span>Followers{this.state.user_data.followers}</span>
       </div>
     );
   }

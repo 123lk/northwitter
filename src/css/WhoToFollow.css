@@ -1,3 +1,6 @@
 #who-to-follow {
   border: 1px solid black;
+  border-radius: 6px;
+  margin-left: 1em;
+  background-color: white;
 }
