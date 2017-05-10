@@ -6,10 +6,10 @@ class Tweet extends React.Component {
     return (
       <div className='container-fluid' id='tweet'>
         <img src={this.props.avatar} />
-        <h3>{this.props.name}</h3>
-        <h3>{this.props.handle}</h3>
-        <h3>{this.props.content}</h3>
-        <h3>{this.props.date}</h3>
+        <h5>{this.props.name}</h5>
+        <h5>{this.props.handle}</h5>
+        <h5>{this.props.content}</h5>
+        <h5>{this.props.date}</h5>
       </div>
     );
   }
