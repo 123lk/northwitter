@@ -3,7 +3,7 @@ import '../css/TweetForm.css';
 
 class TweetForm extends React.Component {
   constructor (props) {
-    super (props);
+    super(props);
     this.state = {
       charLeft: 140
     };
@@ -19,11 +19,11 @@ class TweetForm extends React.Component {
   render () {
     return (
       <div className='col-sm-5' id='tweet-form'>
-      <div className="form-group">
-        <textarea className="form-control" rows="3" id="comment" placeholder="What's happening?" onChange={this.handleChange.bind(this)} maxLength='140'></textarea>
-                  <span className="pull-right" id='charLeft'>{this.state.charLeft}</span>
-                <button className="btn btn-info" type="submit">Tweet</button>
-      </div>
+        <div className="form-group">
+          <textarea className="form-control" rows="3" id="comment" placeholder="What's happening?" onChange={this.handleChange.bind(this)} maxLength='140'></textarea>
+          <span className='charLeft'>{this.state.charLeft}</span>
+          <button className="btn btn-info" id='tweet-button' type="submit">Tweet</button>
+        </div>
       </div>
     );
   }

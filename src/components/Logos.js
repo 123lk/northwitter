@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Logos.css';
 
 class Logos extends React.Component {
-    render () {
+    render() {
         return (
             <ul className='icons-ul'>
                 <li>
@@ -20,6 +20,11 @@ class Logos extends React.Component {
                 <li>
                     <span className='glyphicon glyphicon-envelope' aria-hidden='true'></span>
                     <span className='nav-link'>Messages</span>
+                </li>
+                <li>
+            <form className="form-inline" id='search'>
+                <input className="form-control mr-sm-2" type="text" placeholder="Search Twitter" />
+            </form>
                 </li>
             </ul>
         );

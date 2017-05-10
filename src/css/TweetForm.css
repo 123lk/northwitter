@@ -1,3 +1,12 @@
 #tweet-form {
   margin-left: 15em;
 }
+
+.charLeft {
+  margin-left: 28em;
+}
+
+#tweet-button {
+  float: right; 
+  margin-right: 1em;
+}

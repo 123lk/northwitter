@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+.tweet-content {
+  margin-right: 1em;
+  margin-left: 1em;
+  text-align: left;
+}
+
 .user-avatar {
   float: left;
   margin-top: 3px;
