@@ -17,14 +17,10 @@ body {
     color: #66757F;
 }
 
-/*.icons-ul li:hover {
-    border-bottom: 2px solid #0084B4;
-    cursor: pointer;
-}*/
-
-.glyphicon-home li:hover {
-    border-bottom: 2px solid #0084B4;
-    cursor: pointer;  
+.twitter-logo {
+    margin-left: 5em;
+    height: 25px;
+    width: 24px;
 }
 
 .nav-link {

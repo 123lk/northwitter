@@ -22,6 +22,9 @@ class Logos extends React.Component {
                     <span className='nav-link'>Messages</span>
                 </li>
                 <li>
+                    <img className='twitter-logo' src="https://img.clipartfest.com/60414c58e954d7236837248225e0216f_new-twitter-logo-vector-eps-twitter-logo-clipart-png_518-518.png" alt="twitter-logo"/>
+                </li>
+                <li>
             <form className="form-inline" id='search'>
                 <input className="form-control mr-sm-2" type="text" placeholder="Search Twitter" />
             </form>
