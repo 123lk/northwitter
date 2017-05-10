@@ -2,12 +2,26 @@ import React from 'react';
 import '../css/TweetForm.css';
 
 class TweetForm extends React.Component {
+  constructor (props) {
+    super (props);
+    this.state = {
+      charLeft: 140
+    };
+  }
+  handleChange (event) {
+    let input = event.target.value;
+    if (input.length <= 140) {
+      this.setState({
+        charLeft: 140 - input.length
+      });
+    }
+  }
   render () {
     return (
       <div className='col-sm-5' id='tweet-form'>
       <div className="form-group">
-        <textarea className="form-control" rows="4" id="comment" placeholder="What's happening?"></textarea>
-                  <h5 className="pull-right">140</h5>
+        <textarea className="form-control" rows="3" id="comment" placeholder="What's happening?" onChange={this.handleChange.bind(this)} maxLength='140'></textarea>
+                  <span className="pull-right" id='charLeft'>{this.state.charLeft}</span>
                 <button className="btn btn-info" type="submit">Tweet</button>
       </div>
       </div>

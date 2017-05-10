@@ -46,6 +46,8 @@ class TwitterFeed extends React.Component {
               handle={tweet.user.screen_name}
               content={tweet.text}
               date={tweet.created_at}
+              retweets={tweet.retweet_count}
+              favs={tweet.favorite_count}
             />
           );
         })}

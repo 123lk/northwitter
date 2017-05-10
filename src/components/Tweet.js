@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Tweet.css';
 
 class Tweet extends React.Component {
-  render() {
+  render () {
     return (
       <div className='container-fluid' id='tweet'>
         <img className='user-avatar' role='presentation' src={this.props.avatar} />
@@ -13,7 +13,9 @@ class Tweet extends React.Component {
         <div className="tweet-icons">
           <span className="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
           <span className="glyphicon glyphicon-retweet" aria-hidden="true"></span>
+          <span>{this.props.retweets}</span>
           <span className="glyphicon glyphicon-heart" aria-hidden="true"></span>
+          <span>{this.props.favs}</span>
         </div>
       </div>
     );
