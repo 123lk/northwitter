@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Logos.css';
 
 class Logos extends React.Component {
-    render() {
+    render () {
         return (
             <ul className='icons-ul'>
                 <li>

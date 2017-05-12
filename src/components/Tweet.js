@@ -9,7 +9,6 @@ class Tweet extends React.Component {
         <span>{this.props.name}</span>
         <span>  @{this.props.handle}</span>
         <h5 className='tweet-content'>{this.props.content}</h5>
-        {/*<h5>{this.props.date}</h5>*/}
         <div className="tweet-icons">
           <span className="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
           <span className="glyphicon glyphicon-retweet" aria-hidden="true"></span>
