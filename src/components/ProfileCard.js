@@ -33,7 +33,7 @@ class ProfileCard extends React.Component {
   }
   render () {
     return (
-      <div className='container-fluid' id='profile-card'>
+      <div id='profile-card'>
         <div className='profile-card-upper'>
           <img src={this.state.user_data.background_image} id='profile-background-image' role='presentation' />
           <img src={this.state.user_data.avatar_url} id='profile-avatar' role='presentation' />
@@ -45,15 +45,15 @@ class ProfileCard extends React.Component {
         <div className='profile-card-lower'>
           <div className='profile-tweets'>
             <p><b>TWEETS</b></p>
-            <span>{this.state.user_data.tweets}</span>
+            <span className='profile-tweets-number'>{this.state.user_data.tweets}</span>
           </div>
           <div className='profile-following'>
             <p><b>FOLLOWING</b></p>
-            <span>{this.state.user_data.following}</span>
+            <span className='profile-following-number'>{this.state.user_data.following}</span>
           </div>
           <div className='profile-followers'>
             <p><b>FOLLOWERS</b></p>
-            <span>{this.state.user_data.followers}</span>
+            <span className='profile-followers-number'>{this.state.user_data.followers}</span>
           </div>
         </div>
       </div>

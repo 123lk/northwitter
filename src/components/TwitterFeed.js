@@ -1,12 +1,14 @@
 import React from 'react';
 import Tweet from './Tweet';
 import request from 'superagent';
+import LoadingSpinner from './LoadingSpinner';
 import '../css/TwitterFeed.css';
 
 class TwitterFeed extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
+      loading: true,
       tweets: []
     };
   }
@@ -16,7 +18,8 @@ class TwitterFeed extends React.Component {
       .end(function (err, res) {
         if (err) return console.log(err);
         this.setState({
-          tweets: this.extractTweetData(res)
+          tweets: this.extractTweetData(res),
+          loading: false
         });
       }.bind(this));
   }
@@ -35,6 +38,7 @@ class TwitterFeed extends React.Component {
     return tweets.slice(0, 25);
   }
   render () {
+      if (this.state.loading) return <LoadingSpinner />;
     return (
       <div className='col-sm-5' id='twitter-feed'>
         {this.state.tweets.map((tweet, i) => {

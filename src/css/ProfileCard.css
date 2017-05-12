@@ -47,15 +47,30 @@ border-radius: 8px;
 .profile-tweets{
   float: left;
   margin: 0.5em;
+  font-size: 10px;
 }
 
 .profile-following {
   float: left; 
   margin: 0.5em;
+  font-size: 10px;
 }
 
 .profile-followers {
   float: left;
   margin: 0.5em;
+  font-size: 10px;
+}
+
+.profile-tweets-number {
+  font-size: 20px;
+}
+
+.profile-followers-number {
+  font-size: 20px; 
+}
+
+.profile-following-number {
+  font-size: 20px; 
 }
 

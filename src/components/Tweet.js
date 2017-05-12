@@ -4,7 +4,7 @@ import '../css/Tweet.css';
 class Tweet extends React.Component {
   render () {
     return (
-      <div className='container-fluid' id='tweet'>
+      <div id='tweet'>
         <img className='user-avatar' role='presentation' src={this.props.avatar} />
         <span>{this.props.name}</span>
         <span>  @{this.props.handle}</span>

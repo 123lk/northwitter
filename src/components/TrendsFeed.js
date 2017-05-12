@@ -23,7 +23,7 @@ class TrendsFeed extends React.Component {
   }
   render () {
     return (
-      <div className='container-fluid' id='trends-feed'>
+      <div id='trends-feed'>
         <h4>Trends</h4>
         {this.state.trends.map((trend, i) => {
           return <Trend key={i} name={trend.name} number={trend.tweet_volume} />;
