@@ -29,19 +29,17 @@ border-radius: 8px;
 }
 
 .user-details {
-  display: inline;
+  float: right;
+  margin-right: 7em;
 }
 
 #user-name {
   font-size: 18px;
-  margin-left: 0.5em;
-  float: right;
-  clear: right;
+  display: block;
 }
 
 #user-handle {
-  float: right;
-  clear: right;
+  display: block;
 }
 
 .profile-tweets{
@@ -64,13 +62,16 @@ border-radius: 8px;
 
 .profile-tweets-number {
   font-size: 20px;
+  color: #1DA1F3;
 }
 
 .profile-followers-number {
   font-size: 20px; 
+  color: #1DA1F3;
 }
 
 .profile-following-number {
   font-size: 20px; 
+  color: #1DA1F3;
 }
 

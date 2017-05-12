@@ -13,7 +13,7 @@ class ProfileCard extends React.Component {
     request
       .get('https://protected-oasis-31937.herokuapp.com/tweets/northcoders')
       .end(function (err, res) {
-        if (err) return console.log(err);
+        if (err) return console.log (err);
         this.setState({
           user_data: this.extractUser(res)
         });
