@@ -1,85 +1,30 @@
 # Northwitter
 
+A clone of the Twitter homepage built using React and Bootstrap.  Web requests are made to Twitters API via SuperAgent to in order to get the latest data from the Tweetosphere.  
 
-## Objectives
+## Installation 
+You will need to have Node.js installed to view this program.  Type the below command into the terminal to check if you already have node installed;
+```
+$node -v
+```
+If you already have node installed it will tell you which version (e.g. v7.7.4).  If you need to install node.js please follow this link <https://nodejs.org/en/>.
 
-1. Introduce yourself to web requests and how we get data from a server. In this exercise we will use GET requests mostly but the API we will be working with has two POST endpoints as well.
-2. Learn how to manipulate web pages based on the data they receive and the way the user interacts with them.
-3. Put your functional programming into use as you will need to manipulate the data served up. Our API serves up the data exactly the same as Twitter does.
-4. Build a pixel perfect clone of the Twitter homepage which will be an awesome show piece for your portfolio!
-5. Gain more experience with React and working with real data.
+To install all the dependencies please enter the following command into the terminal once you have navigated into the root directory; 
+```
+$npm install
+```
 
-## Instructions
+To start the program enter the following command;
+```
+$npm start
+```
 
-1. Carefully plan the components you will need (remember to 'think in React')
-2. Build static (data-less) components and render them on your page
-3. Use [Bootstrap](http://getbootstrap.com/) to layout your components and give your page a basic structure. Don't spend too much time styling at this point. Bootstrap is already linked in your HTML file.
-4. Populate your profile box with your profile data from the twitter API which has been provided
-5. Populate the trends on your twitter clone by fetching them from the API
-6. Populate the time line with all the tweets
-7. Add each user's avatar to their tweets
-8. Display any images from the tweets
-9. Make any hash tags, mentions or urls open in a new window using the real link
-10. Play with Bootstrap to make your page look as close to Twitter's as you can!
+Once compiled the program will be running on <http://localhost:3000/>
 
-## Extra Credit
+## Built With
+[React](https://facebook.github.io/react/) - javascript library for building user interfaces
 
-1. Make your page send a tweet by posting it to the API's dummy post route
-2. Make your interface add the newly sent tweet to the top of the time line
-3. Test posting the tweet to the API's dummy post-error route and handle the response
-4. Add more pages such as user profile and a modal for direct messaging
+[Bootstrap](http://getbootstrap.com/css/) - front-end framework
 
-## API documentation
-
-### GET routes
-
-#### Status
-<https://protected-oasis-31937.herokuapp.com/>
-Check the status of the application
-
-#### Handles
-<https://protected-oasis-31937.herokuapp.com/handles>
-Check which twitter handles are available to get data for
-
-#### Trends
-<https://protected-oasis-31937.herokuapp.com/trends>
-Get twitters current trends
-
-#### Tweets
-<https://protected-oasis-31937.herokuapp.com/tweets>
-Get all tweets for all handles
-
-#### Individual handle's tweets
-<https://protected-oasis-31937.herokuapp.com/tweets/northcoders>
-Get tweets for a certain handle. In this case 'northcoders'
-
-#### Individual handle's followers
-<https://protected-oasis-31937.herokuapp.com/followers/northcoders>
-Get followers for a certain handle. In this case 'northcoders'
-
-#### Individual handle's following
-<https://protected-oasis-31937.herokuapp.com/following/northcoders>
-Get following for a certain handle. In this case 'northcoders'
-
-### POST routes
-
-#### Success
-<https://protected-oasis-31937.herokuapp.com/serve-ok>
-Dummy post route which returns a status 200 OK
-
-#### Error
-<https://protected-oasis-31937.herokuapp.com/serve-error>
-Dummy post route which returns a status 500 ERROR
-
-
-## Resources
-
-[Bootstrap Documentation](http://getbootstrap.com/css/)
-
-[Difference between GET and POST requests](https://www.youtube.com/watch?v=UObINRj2EGY)
-
-[Superagent Docs](https://visionmedia.github.io/superagent/)
-
-[React Component Lifecycle](https://facebook.github.io/react/docs/react-component.html)
-
-[Collection of Frontend Resources on Wakelet](http://wke.lt/w/s/lH3kv)
+[SuperAgent](https://visionmedia.github.io/superagent/) - HTTP request library
+HTML/CSS
