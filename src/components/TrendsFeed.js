@@ -12,14 +12,14 @@ class TrendsFeed extends React.Component {
     };
   }
   componentDidMount () {
-    request 
-    .get('https://protected-oasis-31937.herokuapp.com/trends')
-    .end(function (err, res) {
-      if (err) return console.log(err);
-      this.setState({
-        trends: res.body.tweetData.trends[0].trends.slice(0,10)
-      });
-    }.bind(this));
+    request
+      .get('https://protected-oasis-31937.herokuapp.com/trends')
+      .end(function (err, res) {
+        if (err) return console.log(err);
+        this.setState({
+          trends: res.body.tweetData.trends[0].trends.slice(0, 10)
+        });
+      }.bind(this));
   }
   render () {
     return (

@@ -33,12 +33,12 @@ class TwitterFeed extends React.Component {
     tweets = tweets.sort(function (a, b) {
       const aTime = Date.parse(a.created_at);
       const bTime = Date.parse(b.created_at);
-      return bTime - aTime; 
+      return bTime - aTime;
     });
     return tweets.slice(0, 25);
   }
   render () {
-      if (this.state.loading) return <LoadingSpinner />;
+    if (this.state.loading) return <LoadingSpinner />;
     return (
       <div className='col-sm-5' id='twitter-feed'>
         {this.state.tweets.map((tweet, i) => {

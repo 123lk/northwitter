@@ -6,8 +6,8 @@ class DashboardLeft extends React.Component {
   render () {
     return (
       <div className='col-sm-3'>
-      <ProfileCard/>
-      <TrendsFeed/>
+        <ProfileCard />
+        <TrendsFeed />
       </div>
     );
   }
