@@ -1,6 +1,6 @@
 # Northwitter
 
-A clone of the Twitter homepage built using React and Bootstrap.  Web requests are made to Twitters API via SuperAgent to in order to get the latest data from the Tweetosphere.  
+A clone of the Twitter homepage built using React and Bootstrap.  Web requests are made to Twitter's API via SuperAgent to in order to get the latest data from the Tweetosphere.  
 
 ## Installation 
 You will need to have Node.js installed to view this program.  Type the below command into the terminal to check if you already have node installed;
