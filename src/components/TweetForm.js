@@ -20,7 +20,7 @@ class TweetForm extends React.Component {
     return (
       <div id='tweet-form'>
         <div className="form-group">
-          <textarea className="form-control" rows="3" id="comment" placeholder="What's happening?" onChange={this.handleChange.bind(this)} maxLength='140'></textarea>
+          <textarea className="form-control" rows="2" id="comment" placeholder="What's happening?" onChange={this.handleChange.bind(this)} maxLength='140'></textarea>
           <button className="btn btn-info" id='tweet-button' type="submit">Tweet</button>
           <span className='charLeft'>{this.state.charLeft}</span>
         </div>
