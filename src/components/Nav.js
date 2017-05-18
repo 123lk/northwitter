@@ -35,10 +35,10 @@ class NavBar extends React.Component {
                                     <span className='nav-link'>Messages</span>
                                 </li>
                             </ul>
-                            <span className='twitter-logo'>
+                        </div>
+                            <span className='hidden-sm'>
                                 <img id='logo' src="https://img.clipartfest.com/60414c58e954d7236837248225e0216f_new-twitter-logo-vector-eps-twitter-logo-clipart-png_518-518.png" alt="twitter-logo" />
                             </span>
-                        </div>
                         <form className="navbar-form navbar-right">
                             <div className="form-group">
                                 <input type="text" className="form-control" placeholder="Search Twitter" />
