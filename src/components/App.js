@@ -1,8 +1,8 @@
 import React from 'react';
 import NavBar from './Nav';
 import DashboardLeft from './DashboardLeft';
-import TwitterFeed from './TwitterFeed';
-import TweetForm from './TweetForm';
+import DashboardRight from './DashboardRight';
+import '../main.css';
 
 
 class App extends React.Component {
@@ -11,8 +11,7 @@ class App extends React.Component {
             <div className='container-fluid'>
                 <NavBar />
                 <DashboardLeft />
-                <TweetForm />
-                <TwitterFeed />
+                <DashboardRight />
             </div>
         );
     }

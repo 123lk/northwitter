@@ -28,7 +28,7 @@ class ProfileCard extends React.Component {
       followers: user.followers_count,
       following: user.friends_count,
       avatar_url: user.profile_image_url,
-      background_image: user.profile_background_image_url
+      background_image: user.profile_banner_url
     };
   }
   render () {

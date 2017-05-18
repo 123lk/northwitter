@@ -40,7 +40,7 @@ class TwitterFeed extends React.Component {
   render () {
     if (this.state.loading) return <LoadingSpinner />;
     return (
-      <div className='col-sm-5' id='twitter-feed'>
+      <div id='twitter-feed'>
         {this.state.tweets.map((tweet, i) => {
           return (
             <Tweet

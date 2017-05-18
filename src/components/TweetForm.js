@@ -18,11 +18,11 @@ class TweetForm extends React.Component {
   }
   render () {
     return (
-      <div className='col-sm-5' id='tweet-form'>
+      <div id='tweet-form'>
         <div className="form-group">
           <textarea className="form-control" rows="3" id="comment" placeholder="What's happening?" onChange={this.handleChange.bind(this)} maxLength='140'></textarea>
-          <span className='charLeft'>{this.state.charLeft}</span>
           <button className="btn btn-info" id='tweet-button' type="submit">Tweet</button>
+          <span className='charLeft'>{this.state.charLeft}</span>
         </div>
       </div>
     );
