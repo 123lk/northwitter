@@ -6,7 +6,7 @@ import '../main.css';
 
 
 class App extends React.Component {
-    render() {
+    render () {
         return (
             <div className='container-fluid'>
                 <NavBar />

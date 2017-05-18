@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Nav.css';
 
 class NavBar extends React.Component {
-    render() {
+    render () {
         return (
             <nav className="navbar navbar-default">
                 <div className="container-fluid">
