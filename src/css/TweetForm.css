@@ -1,3 +1,8 @@
 #tweet-button {
   margin-right: 1em;
+  border-radius: 8px;
+}
+
+.form-control {
+    border-radius: 8px;
 }
