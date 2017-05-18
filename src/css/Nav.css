@@ -5,7 +5,7 @@
 }
 
 #logo {
-    margin-left: 5em;
+    margin-left: 10em;
     height: 25px;
     width: 24px;
 }
@@ -17,4 +17,13 @@
 
 #nav-data {
     margin-top: 1em;
+}
+
+.navbar-left {
+    margin-left: 8%;
+}
+
+.navbar-form {
+    margin-right: 7.5%;
+    margin-top: 0;
 }
