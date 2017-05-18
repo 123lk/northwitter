@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Nav.css';
 
 class NavBar extends React.Component {
-    render () {
+    render() {
         return (
             <nav className="navbar navbar-default">
                 <div className="container-fluid">
@@ -17,29 +17,27 @@ class NavBar extends React.Component {
 
                     <div className="collapse navbar-collapse" id="nav-data">
                         <div className='navbar-left'>
-                        <ul className="nav navbar-nav" id='nav-items'>
-                            <li>
-                                <span className='glyphicon glyphicon-home' aria-hidden='true'></span>
-                                <span className='nav-link'>Home</span>
-                            </li>
-                            <li>
-                                <span className='glyphicon glyphicon-fire' aria-hidden='true'></span>
-                                <span className='nav-link'>Moments</span>
-                            </li>
-                            <li>
-                                <span className='glyphicon glyphicon-bell' aria-hidden='true'></span>
-                                <span className='nav-link'>Notifications</span>
-                            </li>
-                            <li>
-                                <span className='glyphicon glyphicon-envelope' aria-hidden='true'></span>
-                                <span className='nav-link'>Messages</span>
-                            </li>
-                            <li>
-                                <span className='twitter-logo'>
-                                    <img id='logo' src="https://img.clipartfest.com/60414c58e954d7236837248225e0216f_new-twitter-logo-vector-eps-twitter-logo-clipart-png_518-518.png" alt="twitter-logo" />
-                                </span>
-                            </li>
-                        </ul>
+                            <ul className="nav navbar-nav" id='nav-items'>
+                                <li>
+                                    <span className='glyphicon glyphicon-home' aria-hidden='true'></span>
+                                    <span className='nav-link'>Home</span>
+                                </li>
+                                <li>
+                                    <span className='glyphicon glyphicon-fire' aria-hidden='true'></span>
+                                    <span className='nav-link'>Moments</span>
+                                </li>
+                                <li>
+                                    <span className='glyphicon glyphicon-bell' aria-hidden='true'></span>
+                                    <span className='nav-link'>Notifications</span>
+                                </li>
+                                <li>
+                                    <span className='glyphicon glyphicon-envelope' aria-hidden='true'></span>
+                                    <span className='nav-link'>Messages</span>
+                                </li>
+                            </ul>
+                            <span className='twitter-logo'>
+                                <img id='logo' src="https://img.clipartfest.com/60414c58e954d7236837248225e0216f_new-twitter-logo-vector-eps-twitter-logo-clipart-png_518-518.png" alt="twitter-logo" />
+                            </span>
                         </div>
                         <form className="navbar-form navbar-right">
                             <div className="form-group">

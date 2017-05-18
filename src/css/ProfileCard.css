@@ -20,7 +20,6 @@ border-radius: 8px;
 }
 
 #profile-avatar {
-  border: 2px solid lightgray;
   border-radius: 8px;
   height: 72px;
   width: 72px;
@@ -29,22 +28,26 @@ border-radius: 8px;
 
 .user-details {
   float: right;
-  margin-right: 7em;
+  margin-right: 6em;
 }
 
 #user-name {
-  font-size: 18px;
+  font-size: 19px;
   display: block;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 #user-handle {
   display: block;
+  margin-left: 5px;
 }
 
 .profile-tweets{
   float: left;
   margin: 0.5em;
   font-size: 10px;
+  margin-left: 1em;
 }
 
 .profile-following {
