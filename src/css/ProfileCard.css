@@ -50,16 +50,31 @@ border-radius: 8px;
   margin-left: 1em;
 }
 
+.profile-tweets:hover {
+    color: #1DA1F3;
+    cursor: pointer;
+}
+
 .profile-following {
   float: left; 
   margin: 0.5em;
   font-size: 10px;
 }
 
+.profile-following:hover {
+    color: #1DA1F3;
+    cursor: pointer;
+}
+
 .profile-followers {
   float: left;
   margin: 0.5em;
   font-size: 10px;
+}
+
+.profile-followers:hover {
+    color: #1DA1F3;    
+    cursor: pointer;
 }
 
 .profile-tweets-number {

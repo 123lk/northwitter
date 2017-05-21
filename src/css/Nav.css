@@ -15,6 +15,12 @@
     margin-left: 5px;
 }
 
+.nav-link:hover {
+    color: #1DA1F3;
+    border-bottom: 2px solid #1DA1F3;
+    cursor: pointer;
+}
+
 #nav-data {
     margin-top: 1em;
 }
