@@ -43,6 +43,7 @@ class ProfileCard extends React.Component {
           </div>
         </div>
         <div className='profile-card-lower'>
+          <p className='text-center'>
           <div className='profile-tweets'>
             <p><b>TWEETS</b></p>
             <span className='profile-tweets-number'>{this.state.user_data.tweets}</span>
@@ -55,6 +56,7 @@ class ProfileCard extends React.Component {
             <p><b>FOLLOWERS</b></p>
             <span className='profile-followers-number'>{this.state.user_data.followers}</span>
           </div>
+          </p>
         </div>
       </div>
     );
