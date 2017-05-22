@@ -1,6 +1,3 @@
-import * as data from './data';
-const user = data.user;
-
 function extractUser (user) {
     return {
       username: user.name,

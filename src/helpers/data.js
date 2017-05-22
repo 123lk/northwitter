@@ -47,6 +47,16 @@ const user = {
   profile_image_url: 'http://pbs.twimg.com/profile_images/668792792689344512/5P90PT8v_normal.png'
 };
 
+const tweetData = {
+  body: [{
+    tweets: [
+      {id: 1, created_at: 'Tue Nov 11 22:01:16 +0000 2014'},
+      {id: 2, created_at: 'Sun Mar 07 21:00:49 +0000 2010'},
+      {id: 3, created_at: 'Thu Nov 13 15:34:38 +0000 2014'},
+      {id: 3, created_at: 'Sun Dec 07 18:17:28 +0000 2014'}]
+  }]
+};
+
 module.exports = {
-  user
+  user, tweetData
 };
