@@ -12,12 +12,12 @@ class TweetForm extends React.Component {
     let input = event.target.value;
     if (input.length <= 140) {
       this.setState({
-        charLeft: 140 - input.length,
+        charLeft: 140 - input.length
       });
     }
   }
-  handleSubmit (event) {
-    event.preventDefault();
+  clearContents () {
+    document.getElementById('comment').value = '';
   }
   render () {
     return (
@@ -32,7 +32,11 @@ class TweetForm extends React.Component {
           maxLength='140'
           >
           </textarea>
-          <button className="btn btn-info" id='tweet-button' type="submit" onSubmit={this.handleSubmit}>Tweet</button>
+          <button 
+          className="btn btn-info" 
+          id='tweet-button' 
+          onClick={this.clearContents.bind(this)}
+          type="submit">Tweet</button>
           <span className='charLeft'>{this.state.charLeft}</span>
         </div>
       </div>
