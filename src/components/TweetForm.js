@@ -18,6 +18,9 @@ class TweetForm extends React.Component {
   }
   clearContents () {
     document.getElementById('comment').value = '';
+    this.setState({
+      charLeft: 140
+    });
   }
   render () {
     return (
