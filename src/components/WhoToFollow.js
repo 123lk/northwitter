@@ -10,7 +10,7 @@ class WhoToFollow extends React.Component {
       <span id='user-name'>Laura Kenny</span>
       <span id='user-handle'>@this_lk</span>
       <div>
-    <a className="btn btn-info" type="submit" id='follow-button' href='https://twitter.com/this_lk'>Follow</a>
+       <a className="btn btn-info" type="submit" id='follow-button' href='https://twitter.com/this_lk'>Follow</a>
       </div>
       </div>
     );

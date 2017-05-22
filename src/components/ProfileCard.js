@@ -3,13 +3,13 @@ import '../css/ProfileCard.css';
 import request from 'superagent';
 
 class ProfileCard extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       user_data: {}
     };
   }
-  componentDidMount() {
+  componentDidMount () {
     request
       .get('https://protected-oasis-31937.herokuapp.com/tweets/northcoders')
       .end(function (err, res) {
@@ -19,7 +19,7 @@ class ProfileCard extends React.Component {
         });
       }.bind(this));
   }
-  extractUser(res) {
+  extractUser (res) {
     const user = res.body.tweetData[0].user;
     return {
       username: user.name,

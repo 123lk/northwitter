@@ -11,7 +11,7 @@ class App extends React.Component {
         return (
             <div className='container-fluid'>
                 <div className='row'>
-                <NavBar />
+                    <NavBar />
                     <DashboardLeft />
                     <DashboardCentre />
                     <DashboardRight />
