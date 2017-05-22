@@ -18,19 +18,19 @@ class NavBar extends React.Component {
                     <div className="collapse navbar-collapse" id="nav-data">
                         <div className='navbar-left'>
                             <ul className="nav navbar-nav" id='nav-items'>
-                                <li>
+                                <li className='left-nav'>
                                     <span className='glyphicon glyphicon-home' aria-hidden='true'></span>
                                     <span className='nav-link'>Home</span>
                                 </li>
-                                <li>
+                                <li className='left-nav'>
                                     <span className='glyphicon glyphicon-fire' aria-hidden='true'></span>
                                     <span className='nav-link'>Moments</span>
                                 </li>
-                                <li>
+                                <li className='left-nav'>
                                     <span className='glyphicon glyphicon-bell' aria-hidden='true'></span>
                                     <span className='nav-link'>Notifications</span>
                                 </li>
-                                <li>
+                                <li className='left-nav'>
                                     <span className='glyphicon glyphicon-envelope' aria-hidden='true'></span>
                                     <span className='nav-link'>Messages</span>
                                 </li>

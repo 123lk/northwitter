@@ -10,8 +10,8 @@ class App extends React.Component {
     render () {
         return (
             <div className='container-fluid'>
-                <NavBar />
                 <div className='row'>
+                <NavBar />
                     <DashboardLeft />
                     <DashboardCentre />
                     <DashboardRight />

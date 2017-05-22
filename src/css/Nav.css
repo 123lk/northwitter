@@ -15,10 +15,9 @@
     margin-left: 5px;
 }
 
-.nav-link:hover {
+.left-nav:hover {
     color: #1DA1F3;
-    border-bottom: 2px solid #1DA1F3;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
 #nav-data {

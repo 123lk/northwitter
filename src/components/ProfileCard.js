@@ -35,7 +35,7 @@ class ProfileCard extends React.Component {
     return (
       <div id='profile-card'>
         <div className='profile-card-upper'>
-          <img src={this.state.user_data.background_image} id='profile-background-image' role='presentation' />
+          <img className='img-responsive' src={this.state.user_data.background_image} id='profile-background-image' role='presentation' />
           <div className='user-details'>
             <span>
               <img src={this.state.user_data.avatar_url} id='profile-avatar' role='presentation' />
@@ -44,7 +44,7 @@ class ProfileCard extends React.Component {
             <span id='user-handle'>{this.state.user_data.handle}</span>
           </div>
         </div>
-        <div className='profile-card-lower'>
+        <div className='details'>
             <div className='profile-tweets'>
               <p><b>TWEETS</b></p>
               <span className='profile-tweets-number'>{this.state.user_data.tweets}</span>
@@ -58,7 +58,7 @@ class ProfileCard extends React.Component {
               <span className='profile-followers-number'>{this.state.user_data.followers}</span>
             </div>
         </div>
-      </div>
+        </div>
     );
   }
 }
