@@ -1,0 +1,29 @@
+#wtf-table {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  height: 250px;
+  width: 100%;
+}
+
+#wtf-title {
+  margin-left: 1em; 
+}
+
+#profile-pic {
+  border-radius: 8px;
+  height: 72px;
+  width: 72px;
+  margin-left: 1em;
+}
+
+#user-name {
+  font-size: 20px;
+}
+
+#follow-button {
+  margin-top: 5px;
+  margin-right: 1em;
+  border-radius: 8px;
+  margin-left: 1em;
+}
