@@ -5,9 +5,15 @@
 }
 
 #logo {
-    margin-left: 14em;
+    margin-right: 10em;
     height: 25px;
     width: 24px;
+}
+
+@media (min-width: 768px) {
+.navbar .navbar-collapse {
+  text-align: center;
+}
 }
 
 .nav-link {
