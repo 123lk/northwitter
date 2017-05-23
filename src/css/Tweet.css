@@ -5,6 +5,10 @@
   background-color: white;
 }
 
+#tweet:hover {
+  background-color: #F5F8FA;
+}
+
 .tweet-content {
   margin-right: 1em;
   margin-left: 1em;
