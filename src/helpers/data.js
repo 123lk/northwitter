@@ -50,7 +50,7 @@ const user = {
 const tweetData = {
   body: [{
     tweets: [
-      {id: 1, created_at: 'Tue Nov 11 22:01:16 +0000 2014'},
+      {id: 1, created_at: 'Tue Nov 11 22:01:16 +0000 2014', error: 'error'},
       {id: 2, created_at: 'Sun Mar 07 21:00:49 +0000 2010'},
       {id: 3, created_at: 'Thu Nov 13 15:34:38 +0000 2014'},
       {id: 3, created_at: 'Sun Dec 07 18:17:28 +0000 2014'}]

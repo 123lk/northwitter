@@ -21,6 +21,12 @@ $npm start
 
 Once compiled the program will be running on <http://localhost:3000/>
 
+## Testing
+To run the tests, enter the following command into the terminal;
+```
+$npm test
+```
+
 ## Built With
 [React](https://facebook.github.io/react/) - javascript library for building user interfaces
 
