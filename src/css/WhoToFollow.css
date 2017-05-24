@@ -24,9 +24,14 @@
 }
 
 #user-name {
+  color: black;
   margin-left: 10px;
   font-size: 20px;
   padding-top: 5px;
+}
+
+#user-name:hover {
+  color: #1DA1F3;
 }
 
 #follow-button {
