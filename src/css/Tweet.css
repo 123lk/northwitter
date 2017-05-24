@@ -23,6 +23,14 @@
   border-radius: 8px;
 }
 
+#tweet-user-name {
+  color: black;
+}
+
+#tweet-user-name:hover{
+  color: #1DA1F3;
+}
+
 .tweet-icons {
   margin-left: 2em;
 }

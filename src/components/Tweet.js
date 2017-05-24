@@ -6,7 +6,7 @@ class Tweet extends React.Component {
     return (
       <div id='tweet'>
         <img className='user-avatar' role='presentation' src={this.props.avatar} />
-        <span>{this.props.name}</span>
+        <a id='tweet-user-name' href={`https://twitter.com/${this.props.handle}`}>{this.props.name}</a>
         <span>  @{this.props.handle}</span>
         <h5 className='tweet-content'>{this.props.content}</h5>
         <div className="tweet-icons">
