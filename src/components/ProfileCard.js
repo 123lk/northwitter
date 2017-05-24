@@ -40,7 +40,7 @@ class ProfileCard extends React.Component {
             <span>
               <img src={this.state.user_data.avatar_url} id='profile-avatar' role='presentation' />
             </span>
-            <span id='user-name'>{this.state.user_data.username}</span>
+            <a id='user-name' href="https://twitter.com/northcoders">{this.state.user_data.username}</a>
             <span id='user-handle'>{this.state.user_data.handle}</span>
           </div>
         </div>
